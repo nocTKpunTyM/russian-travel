@@ -1,0 +1,16 @@
+.page {
+    min-width: 320px;
+    background: #2A2C2F;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+	.page {
+		min-width: 768px;
+	}
+}

@@ -1,0 +1,11 @@
+.place__paragraphes {
+    margin: 25px 0 0 0;
+    width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+	.place__paragraphes {
+        margin: 0;
+        width: 100%;
+    }
+}
