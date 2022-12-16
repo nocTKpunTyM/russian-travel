@@ -1,0 +1,21 @@
+.place__paragraphs {
+    margin: 25px 0 0 0;
+    padding: 0;
+    width: 90%;
+    display: grid;
+    grid-template-rows: min-content;
+    gap: 25px;
+}
+
+@media screen and (min-width: 768px) {
+	.place__paragraphs {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+	.place__paragraphs {
+        gap: 27px;
+    }
+}

@@ -1,15 +1,24 @@
 .cover__overlay {
     width: 100%;
     min-height: 200px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: min-content;
+    gap: 16px;
     background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s ease;
+    text-decoration: none;
+    color: white;
+}
+
+.cover__overlay:hover {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 @media screen and (min-width: 768px) {
 	.cover__overlay {
         min-height: 480px;
+        gap: 32px;
     }
 }
 
